@@ -31,7 +31,7 @@ public class SearchTest {
     @Test
     public void searchGoogleTest(){
 
-        GooglePage googlePage = new googlePage.isPageLoaded();
+        GooglePage googlePage = new GooglePage(driver);
         Assert.assertTrue(googlePage.isPageLoaded(),
                 "Login page was not loaded.");
 
