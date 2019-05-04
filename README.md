@@ -34,4 +34,4 @@ URL https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/3.1
 URL https://chromedriver.storage.googleapis.com/2.46/chromedriver_win32.zip
 файл из архива скопировать в директорию C:\Windows\System32\
 
-Для запуска необходимо нажать кнопку Run Test.
+Для запуска необходимо нажать кнопку Run Test на странице SearchTest.
