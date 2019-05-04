@@ -26,7 +26,7 @@ public class GooglePage {
         searchFieldGoogle.sendKeys(searchTerm);
         searchFieldGoogle.submit();
         try {
-            sleep(2000);
+            sleep(1200);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -35,7 +35,7 @@ public class GooglePage {
     public void clickSearchGoogleTwoPage(){
         searchPageTwoResult.click();
         try {
-            sleep(2000);
+            sleep(1200);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
