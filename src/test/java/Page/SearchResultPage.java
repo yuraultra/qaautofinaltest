@@ -16,7 +16,6 @@ public class SearchResultPage {
     @FindBy(xpath="//div[@class='srg']/div[@class='g']")
     private List<WebElement> searchResults;
 
-
     public SearchResultPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
