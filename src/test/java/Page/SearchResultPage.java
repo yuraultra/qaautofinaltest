@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SearchResultPage {
-    WebDriver driver;
+    private WebDriver driver;
 
 
     @FindBy(xpath="//div[@class='srg']/div[@class='g']")
